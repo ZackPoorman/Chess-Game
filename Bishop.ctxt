@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=player
+comment0.target=Bishop(Player)
+comment1.params=player\ s
+comment1.target=Bishop(Player,\ Location)
+comment2.params=
+comment2.target=java.lang.String\ type()
+comment3.params=move\ board
+comment3.target=boolean\ isValidMove(Move,\ IChessPiece[][])
+comment3.text=\ -------------------------------------------------------------------------\r\n\ A\ valid\ move\ for\ a\ Bishop\ on\ the\ board\ must\ satisfy\ the\ following\r\n\ requirements\:\r\n\ \ \ \ 1)\ A\ move\ for\ any\ chess\ piece\ in\ general;\r\n\ \ \ \ 2)\ The\ move\ must\ be\ restricted\ exclusively\ to\ a\ diagonal;\r\n\ \ \ \ 3)\ The\ squares\ strictly\ between\ the\ "from"\ location\ and\ the\ "to"\ location\r\n\ \ \ \ \ \ \ must\ be\ empty\ (unoccupied).\r\n\ \ \ \ \ \ \ \r\n\ \ method\ modified\ on\ 12-29-2017,\ LJK\r\n\ -------------------------------------------------------------------------\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

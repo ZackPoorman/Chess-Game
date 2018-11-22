@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=from\ to
+comment0.target=Move(Location,\ Location)
+comment0.text=\ ---------------------------------------------------------------------------------------------------\r\n\ The\ Move\ constructor\ initializes\ the\ two\ locations\ in\ a\ move,\ the\ "from"\ location\ and\ the\ "to"\ location.\r\n\ ---------------------------------------------------------------------------------------------------\r\n
+comment1.params=str
+comment1.target=Move(java.lang.String)
+comment2.params=
+comment2.target=boolean\ toDifferentLocation()
+comment2.text=\ --------------------------------------------------------------------\r\n\ A\ valid\ Move\ consists\ of\ a\ move\ from\ any\ location,\ denoted\ by\ "from",\r\n\ to\ some\ other\ location,\ denoted\ by\ "to";\ \ i.e.\ the\ locations\ must\ be\r\n\ two\ distinctly\ different\ locations.\r\n\ --------------------------------------------------------------------\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

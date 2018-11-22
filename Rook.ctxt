@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=player
+comment0.target=Rook(Player)
+comment1.params=player\ Location
+comment1.target=Rook(Player,\ Location)
+comment2.params=
+comment2.target=java.lang.String\ type()
+comment3.params=move\ board
+comment3.target=boolean\ isValidMove(Move,\ IChessPiece[][])
+comment3.text=\ -------------------------------------------------------------------------\r\n\ A\ valid\ move\ for\ a\ Rook\ must\ satisfy\ the\ following\ requirements\:\r\n\ \ \ \ 1)\ A\ move\ for\ any\ chess\ piece\ in\ general;\r\n\ \ \ \ 2)\ The\ move\ must\ be\ restricted\ exclusively\ to\ either\ a\ row\ or\ a\ column;\r\n\ \ \ \ 3)\ The\ Locations\ strictly\ between\ the\ "from"\ Location\ and\ the\ "to"\ Location\r\n\ \ \ \ \ \ \ must\ be\ empty\ (unoccupied).\r\n\ -------------------------------------------------------------------------\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

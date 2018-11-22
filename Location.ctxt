@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=row\ column
+comment0.target=Location(int,\ int)
+comment1.params=square
+comment1.target=Location(Location)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=str
+comment2.target=Location(java.lang.String)
+comment3.params=row\ column
+comment3.target=void\ set(int,\ int)
+comment4.params=s
+comment4.target=void\ set(Location)
+comment5.params=s
+comment5.target=boolean\ equals(Location)
+comment6.params=target
+comment6.target=Location\ unitStepLocation(Location)
+comment6.text=\r\n\ ---------------------------------------------------------------------\r\n\ The\ unitStepLocation\ method\ returns\ a\ Location\ that\ represents\ a\ unit\r\n\ "step\ in\ the\ right\ direction"\ for\ a\ piece\ to\ move\ from\ this\ Location\r\n\ to\ the\ target\ Location.\r\n\ \r\n\ @param\ target\r\n\ @return\ a\ unit\ direction\ from\ this\ Location\ to\ the\ target\ Location\r\n\ ---------------------------------------------------------------------\r\n
+comment7.params=square
+comment7.target=Location\ direction(Location)
+comment7.text=\r\n\ --------------------------------------------------------\r\n\ The\ direction\ method\ returns\ a\ Location\ that\ consists\ of\r\n\ the\ row\ and\ column\ differences\ between\ two\ locations,\ i.e.\r\n\ the\ direction\ from\ this\ location\ to\ the\ square\ location.\r\n\ \r\n\ @param\ s\r\n\ @return\ a\ direction\ from\ this\ Location\ to\ the\ square\r\n\ --------------------------------------------------------\r\n
+comment8.params=increment
+comment8.target=void\ plus(Location)
+comment8.text=\r\n\ --------------------------------------------------------\r\n\ The\ plus\ method\ modifies\ this\ Location\ so\ that\ it\ may\r\n\ identify\ some\ other\ location\ on\ the\ board,\ such\ as\ an\r\n\ adjacent\ Location\ if\ increment\ would\ denote\ a\ \r\n\ unitLocationStep.\r\n\ \r\n\ @param\ increment\r\n\ --------------------------------------------------------\r\n
+comment9.params=decrement
+comment9.target=void\ minus(Location)
+numComments=11

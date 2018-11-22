@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=player
+comment0.target=Knight(Player)
+comment1.params=
+comment1.target=java.lang.String\ type()
+comment2.params=move\ board
+comment2.target=boolean\ isValidMove(Move,\ IChessPiece[][])
+comment2.text=\ -------------------------------------------------------------------------\r\n\ A\ valid\ move\ for\ a\ Knight\ must\ satisfy\ the\ following\ requirements\:\r\n\ \ \ \ 1)\ A\ move\ for\ any\ chess\ piece\ in\ general;\r\n\ \ \ \ 2)\ The\ move\ must\ be\ restricted\ exclusively\ to\ either\ \r\n\ \ \ \ \t\tA)\ two\ rows\ and\ one\ column,\ or\r\n\ \ \ \ \t\tB)\ one\ row\ and\ two\ columns.\r\n\ -------------------------------------------------------------------------\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

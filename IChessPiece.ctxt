@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Player\ player()
+comment0.text=\r\n\ Return\ the\ player\ that\ owns\ this\ piece.\r\n\r\n\ @return\ the\ player\ that\ owns\ this\ piece.\r\n
+comment1.params=
+comment1.target=java.lang.String\ type()
+comment1.text=\r\n\ Return\ the\ type\ of\ this\ piece\ ("King",\ "Queen",\ "Rook",\ etc.).\ \ Note\:\ \ In\ this\ case\ "type"\ refers\ to\ the\ game\r\n\ of\ chess,\ not\ the\ type\ of\ the\ Java\ class.\r\n\r\n\ @return\ the\ type\ of\ this\ piece\r\n
+comment2.params=row\ column
+comment2.target=void\ setLocation(int,\ int)
+comment3.params=move\ board
+comment3.target=boolean\ isValidMove(Move,\ IChessPiece[][])
+comment3.text=\r\n\ Returns\ whether\ the\ piece\ at\ location\ {@code\ [move.fromRow,\ move.fromColumn]}\ is\ allowed\ to\ move\ to\ location\r\n\ {@code\ [move.fromRow,\ move.fromColumn]}.\r\n\r\n\ Note\:\ \ Pieces\ don't\ store\ their\ own\ location\ (because\ doing\ so\ would\ be\ redundant).\ \ Therefore,\r\n\ the\ {@code\ [move.fromRow,\ move.fromColumn]}\ component\ of\ {@code\ move}\ is\ necessary.\r\n\ {@code\ this}\ object\ must\ be\ the\ piece\ at\ location\ {@code\ [move.fromRow,\ move.fromColumn]}.\r\n\ (This\ method\ makes\ no\ sense\ otherwise.)\r\n\r\n\ @param\ move\ \ a\ {@link\ ChessProject3.chess.Move}\ object\ describing\ the\ move\ to\ be\ made.\r\n\ @param\ board\ the\ {@link\ ChessProject3.chess.IChessBoard}\ in\ which\ this\ piece\ resides.\r\n\ @return\ {@code\ true}\ if\ the\ proposed\ move\ is\ valid,\ {@code\ false}\ otherwise.\r\n\ @throws\ IndexOutOfBoundsException\ if\ either\ {@code\ [move.fromRow,\ move.fromColumn]}\ or\ {@code\ [move.toRow,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ move.toColumn]}\ don't\ represent\ valid\ locations\ on\ the\ board.\r\n\ @throws\ IllegalArgumentException\ \ if\ {@code\ this}\ object\ isn't\ the\ piece\ at\ location\ {@code\ [move.fromRow,\ move.fromColumn]}.\r\n
+numComments=4

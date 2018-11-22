@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ChessPanel()
+comment1.params=panel\ listener
+comment1.target=void\ createBoard(javax.swing.JPanel,\ ChessPanel.GameMoveListener)
+comment10.params=
+comment10.target=void\ gameOverDialog()
+comment11.params=event
+comment11.target=Location\ getEventLocation(java.awt.event.ActionEvent)
+comment2.params=s
+comment2.target=javax.swing.JButton\ buttonAt(Location)
+comment3.params=
+comment3.target=void\ createChessIcons()
+comment4.params=
+comment4.target=void\ reset()
+comment5.params=s
+comment5.target=void\ promote(Location)
+comment6.params=m
+comment6.target=void\ move(Move)
+comment7.params=
+comment7.target=void\ undoMove()
+comment8.params=piece
+comment8.target=void\ displayMessage(IChessPiece)
+comment9.params=s\ message
+comment9.target=void\ provideFeedback(Location,\ java.lang.String)
+numComments=12

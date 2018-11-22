@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=player
+comment0.target=ChessPiece(Player)
+comment1.params=player\ location
+comment1.target=ChessPiece(Player,\ Location)
+comment2.params=row\ column
+comment2.target=void\ setLocation(int,\ int)
+comment2.text=\r\n\ setLocation\ identifies\ the\ location\ of\ the\ chess\ piece\ on\ the\ board.\r\n
+comment3.params=
+comment3.target=java.lang.String\ type()
+comment4.params=
+comment4.target=Player\ player()
+comment5.params=move\ board
+comment5.target=boolean\ isValidMove(Move,\ IChessPiece[][])
+comment5.text=\ -------------------------------------------------------------------------\r\n\ A\ valid\ move\ for\ any\ chess\ piece,\ in\ general,\ must\ satisfy\ the\ following\r\n\ requirements\:\r\n\ \ \ \ 1)\ Every\ move,\ in\ general,\ involves\ two\ distinctly\ different\ locations\r\n\ \ \ \ \ \ \ on\ the\ board;\r\n\ \ \ \ 2)\ The\ "from"\ location\ must\ contain\ a\ chess\ piece;\r\n\ \ \ \ 3)\ The\ "to"\ location\ is\ either\ exclusively\ empty\ or\ it\ contains\ a\ chess\r\n\ \ \ \ \ \ \ piece\ of\ the\ opposite\ color,\ which\ is\ subsequently\ taken,\ i.e.\r\n\ \ \ \ \ \ \ removed\ from\ play,\ and\ no\ longer\ on\ the\ board.\r\n\ -------------------------------------------------------------------------\r\n
+comment6.params=move\ board
+comment6.target=boolean\ moveToOpponentPiece(Move,\ IChessPiece[][])
+comment7.params=move\ board
+comment7.target=boolean\ overEmptyLocations(Move,\ IChessPiece[][])
+comment7.text=\ -------------------------------------------------------------------------\r\n\ The\ overEmptyLocations\ returns\ \:\r\n\ \ \ \ 1)\ true\ -\ if\ all\ locations\ exclusively\ between\ the\ "from"\ location\ and\ the\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ "to"\ location\ are\ empty.\r\n\ \ \ \ 2)\ false\ -\ if\ at\ least\ one\ location\ between\ the\ "from"\ location\ and\ the\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ "to"\ location\ is\ occupied.\r\n\ -------------------------------------------------------------------------\r\n
+numComments=8

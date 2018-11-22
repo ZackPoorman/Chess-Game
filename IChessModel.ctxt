@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ isCheckMate()
+comment0.text=\r\n\ Returns\ whether\ the\ game\ is\ over.\r\n\r\n\ @return\ {@code\ true}\ if\ complete,\ {@code\ false}\ otherwise.\r\n
+comment1.params=move
+comment1.target=boolean\ isValidMove(Move)
+comment1.text=\r\n\ Returns\ whether\ the\ piece\ at\ location\ {@code\ [move.fromRow,\ move.fromColumn]}\ is\ allowed\ to\ move\ to\ location\r\n\ {@code\ [move.fromRow,\ move.fromColumn]}.\r\n\r\n\ @param\ move\ a\ {@link\ ChessProject3.chess.Move}\ object\ describing\ the\ move\ to\ be\ made.\r\n\ @return\ {@code\ true}\ if\ the\ proposed\ move\ is\ valid,\ {@code\ false}\ otherwise.\r\n\ @throws\ IndexOutOfBoundsException\ if\ either\ {@code\ [move.fromRow,\ move.fromColumn]}\ or\ {@code\ [move.toRow,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ move.toColumn]}\ don't\ represent\ valid\ locations\ on\ the\ board.\r\n
+comment2.params=move
+comment2.target=void\ move(Move)
+comment2.text=\r\n\ Moves\ the\ piece\ from\ location\ {@code\ [move.fromRow,\ move.fromColumn]}\ to\ location\ {@code\ [move.fromRow,\r\n\ move.fromColumn]}.\r\n\r\n\ @param\ move\ a\ {@link\ ChessProject3.chess.Move}\ object\ describing\ the\ move\ to\ be\ made.\r\n\ @throws\ IndexOutOfBoundsException\ if\ either\ {@code\ [move.fromRow,\ move.fromColumn]}\ or\ {@code\ [move.toRow,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ move.toColumn]}\ don't\ represent\ valid\ locations\ on\ the\ board.\r\n
+comment3.params=p
+comment3.target=boolean\ inCheck(Player)
+comment3.text=\r\n\ Report\ whether\ the\ current\ player\ p\ is\ in\ check.\r\n\ @param\ \ p\ {@link\ ChessProject3.chess.Move}\ the\ Player\ being\ checked\r\n\ @return\ {@code\ true}\ if\ the\ current\ player\ is\ in\ check,\ {@code\ false}\ otherwise.\r\n
+comment4.params=
+comment4.target=Player\ currentPlayer()
+comment4.text=\r\n\ Return\ the\ current\ player.\r\n\r\n\ @return\ the\ current\ player\r\n
+numComments=5

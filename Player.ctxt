@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Player\ next()
+comment0.text=\r\n\ Return\ the\ {@code\ Player}\ whose\ turn\ is\ next.\r\n\r\n\ @return\ the\ {@code\ Player}\ whose\ turn\ is\ next\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+numComments=2

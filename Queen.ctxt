@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=player
+comment0.target=Queen(Player)
+comment0.text=\ -----------------------------------------------------------------------------\r\n\ The\ Queen\ occupies\ a\ single\ square,\ whether\ it\ moves\ like\ a\ Rook\ or\ a\ Bishop.\ \r\n\ -----------------------------------------------------------------------------\r\n
+comment1.params=row\ column
+comment1.target=void\ setLocation(int,\ int)
+comment1.text=\ -----------------------------------------------------------------------------\r\n\ The\ Queen\ occupies\ a\ single\ Square,\ whether\ it\ moves\ like\ a\ Rook\ or\ a\ Bishop.\ \r\n\ -----------------------------------------------------------------------------\r\n
+comment2.params=
+comment2.target=java.lang.String\ type()
+comment3.params=move\ board
+comment3.target=boolean\ isValidMove(Move,\ IChessPiece[][])
+comment3.text=\ --------------------------------------------------------------------------------\r\n\ A\ Queen\ can\ move\ either\ as\ a\ Rook\ or\ as\ a\ Bishop.\ \ \r\n\ ---------------------------------------------------------------------------------\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=player
+comment0.target=BPawn(Player)
+comment1.params=move\ board
+comment1.target=boolean\ isValidMove(Move,\ IChessPiece[][])
+comment1.text=\ -------------------------------------------------------------------------\r\n\ A\ valid\ move\ for\ a\ White\ Pawn\ must\ satisfy\ the\ following\ requirements\:\r\n\ \ \ \ 1)\ A\ move\ for\ any\ chess\ piece\ in\ general;\r\n\ \ \ \ 2)\ The\ move\ may\ be\ one\ or\ two\ squares\ forward,\ two\ for\ its\ first\ move.\r\n\ \ \ \ 3)\ The\ move\ may\ be\ one\ square\ forward\ along\ the\ diagonal\ to\ take\ an\r\n\ \ \ \ \ \ \ opposing\ piece.\r\n\ -------------------------------------------------------------------------\r\n
+numComments=2
